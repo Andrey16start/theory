@@ -1,6 +1,6 @@
 // Algorithm: "Binary search"
 // Condition: Array is sorted by ASC
-// Type: Binary
+// Type: Logarithmic
 // Complexity: O(log2n)
 
 // Examples
