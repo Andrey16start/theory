@@ -4,7 +4,7 @@
 // Complexity: O(n2)
 
 
-const unsortedArr2 = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9];
+const unsortedArr = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9, 2, 6, 4, 8, 1, 2, -6, 3, 6, 1, -9, 2, 6, 8, 12, -12];
 
 /**
  * Sorts array by ASC
@@ -13,14 +13,11 @@ const unsortedArr2 = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9];
  */
 const bubbleSort = (arr) => {
   const sortedArr = [...arr];
-  let iterations = 0;
 
   for (let i = 0; i < sortedArr.length; i++) {
-    iterations++;
     let wasChanges = false;
 
     for (let j = 0; j < sortedArr.length; j++) {
-      iterations++;
       const currentValue = sortedArr[j];
       const nextValue = sortedArr[j + 1];
 
@@ -39,4 +36,4 @@ const bubbleSort = (arr) => {
   return sortedArr;
 }
 
-bubbleSort(unsortedArr2);
+bubbleSort(unsortedArr); // 870 iterations

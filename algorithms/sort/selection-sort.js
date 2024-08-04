@@ -4,7 +4,7 @@
 // Complexity: O(n2)
 
 
-const unsortedArr = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9];
+const unsortedArr = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9, 2, 6, 4, 8, 1, 2, -6, 3, 6, 1, -9, 2, 6, 8, 12, -12];
 
 /**
  * Sorts array by ASC
@@ -31,6 +31,4 @@ const selectionSort = (arr) => {
   return sortedArr;
 }
 
-selectionSort(unsortedArr); // [-3, 0, 1, 2, 3, 3, 4, 4, 4, 6, 7, 8, 9]
-// 91 iterations
-// 13 external (i) and 78 internal (j)
+selectionSort(unsortedArr); // 435 iterations

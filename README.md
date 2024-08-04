@@ -7,6 +7,10 @@
 ### 📊 Sort
 * Selection sort. O(n2)
 * Bubble sort. O(n2)
+* Quick sort. O(log n)
+* TODO: Merge Sort
+* TODO: Heap Sort
+* TODO: Timsort
 
 ### 🌀 Recursion
 * Factorial. O(n)
