@@ -8,6 +8,10 @@
 * Selection sort. O(n2)
 * Bubble sort. O(n2)
 
+### 🌀 Recursion
+* Factorial. O(n)
+* Fibonacci. O(2^n)
+
 # ℹ️ Algorithms Complexity
 * O(1) - Constant
 * O(log n) - Logarithmic
