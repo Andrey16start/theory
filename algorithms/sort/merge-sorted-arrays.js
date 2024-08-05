@@ -18,10 +18,8 @@ const mergeArrays = (arr1, arr2) => {
   const mergedArray = [];
   let i = 0;
   let j = 0;
-  let iterations = 0;
 
   while (i < arr1.length && j < arr2.length) {
-    iterations++;
     if (arr1[i] < arr2[j]) {
       mergedArray.push(arr1[i]);
       i++;
@@ -32,13 +30,11 @@ const mergeArrays = (arr1, arr2) => {
   }
 
   while (i < arr1.length) {
-    iterations++;
     mergedArray.push(arr1[i]);
     i++;
   }
 
   while (j < arr2.length) {
-    iterations++;
     mergedArray.push(arr2[j]);
     j++;
   }

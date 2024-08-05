@@ -33,10 +33,8 @@ const binarySearch = (arr, target) => {
   let start = 0;
   let end = arr.length;
   let middle;
-  let iterationsCount = 0;
 
   while (start <= end) {
-    iterationsCount++;
     middle = Math.floor((start + end) / 2);
 
     if (arr[middle] === target) {
