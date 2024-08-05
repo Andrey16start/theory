@@ -8,6 +8,7 @@
 * Selection sort. O(n2)
 * Bubble sort. O(n2)
 * Quick sort. O(log n)
+* Merge sorted arrays. O(n)
 * TODO: Merge Sort
 * TODO: Heap Sort
 * TODO: Timsort

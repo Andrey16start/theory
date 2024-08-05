@@ -8,7 +8,7 @@ const unsortedArr = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9, 2, 6, 4, 8, 1, 2, -
 
 /**
  * Sorts array by ASC
- * @param {number[]} arr - The array of numbers to search through.
+ * @param {number[]} arr - The array of numbers
  * @returns {number[]} The sorted array by ASC
  */
 const selectionSort = (arr) => {

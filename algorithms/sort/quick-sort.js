@@ -3,12 +3,15 @@
 // Type: Logarithmic
 // Complexity: O(log n)
 
+// QuickSort is a sorting algorithm based on the "Divide and Conquer" algorithm
+// https://www.geeksforgeeks.org/introduction-to-divide-and-conquer-algorithm/
+
 
 const unsortedArr = [1, 4, 3, 6, 7, 0, 2, -3, 8, 4, 4, 3, 9, 2, 6, 4, 8, 1, 2, -6, 3, 6, 1, -9, 2, 6, 8, 12, -12];
 
 /**
  * Sorts array by ASC
- * @param {number[]} arr - The array of numbers to search through.
+ * @param {number[]} arr - The array of numbers
  * @returns {number[]} The sorted array by ASC
  */
 const quickSort = (arr) => {
